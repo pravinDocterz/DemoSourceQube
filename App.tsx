@@ -20,13 +20,13 @@ import {
 } from 'native-base';
 import React from 'react';
 import MainContainer from './src/screens/main/MainContainer';
-import ScreenTwo from './src/screens/screen2/ScreenTwo';
+//import ScreenTwo from './src/screens/screen2/ScreenTwo';
 
 const App = () => {
   return (
     <NativeBaseProvider>
-      {/*<MainContainer/>*/}
-      <ScreenTwo />
+      <MainContainer />
+      {/*<ScreenTwo />*/}
     </NativeBaseProvider>
   );
 };
