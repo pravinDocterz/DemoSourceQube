@@ -13,9 +13,13 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = uri("https://plugins.gradle.org/m2/")
+        }
     }
     dependencies {
         classpath("com.android.tools.build:gradle")
         classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:4.3.0.3225")
     }
 }
